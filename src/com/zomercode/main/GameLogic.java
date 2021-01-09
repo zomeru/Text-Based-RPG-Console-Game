@@ -32,7 +32,7 @@ public class GameLogic
 
                 input = Integer.parseInt(scanner.next());
 
-                if (input > userChoices) {
+                if (input > userChoices || input < 1) {
 
                     System.out.println("Please enter a valid input!");
                 }
